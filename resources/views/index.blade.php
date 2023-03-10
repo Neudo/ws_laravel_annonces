@@ -11,6 +11,8 @@
 <body>
 <h1>Home</h1>
 
+<a href="/new">Nouvelle annonce</a>
+
 @if(session('status'))
     <div>
         <h3>{{session('status')}}</h3>

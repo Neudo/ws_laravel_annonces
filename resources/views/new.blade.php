@@ -10,6 +10,8 @@
 </head>
 <body>
 
+<a href="/">Home page</a>
+
 @if(session('status'))
     <div>
         <h3>{{session('status')}}</h3>
